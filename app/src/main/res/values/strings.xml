@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">WeightCheck</string>
+    <string name="info_main">Para poder mostrar qué tan bien estás de peso según el IMC, es necesario que agregues los siguientes datos</string>
+    <string name="height">Estatura</string>
+    <string name="weight">Peso</string>
 </resources>
