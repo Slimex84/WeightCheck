@@ -137,6 +137,15 @@
 
             </androidx.cardview.widget.CardView>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:backgroundTint="@color/secondary"
+                android:text="@string/calcular"
+                android:textAllCaps="true" />
+
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
