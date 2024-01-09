@@ -13,10 +13,13 @@
         android:theme="@style/Theme.WeightCheck"
         tools:targetApi="31">
         <activity
+            android:name=".activity_result"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.App.Starting"
             android:exported="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
