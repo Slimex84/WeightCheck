@@ -4,36 +4,50 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.google.android.material.slider.RangeSlider
 
 class MainActivity : AppCompatActivity() {
 
-    //Declaración de variables
+    //Needed variables
+    private var currentWeight: Int = 60
+    private var currentHeight: Int = 120
+
+    //Needed components
+    private lateinit var textViewHeight: TextView
+    private lateinit var rangeSliderHeight: RangeSlider
+    private lateinit var textViewWeight: TextView
+    private lateinit var rangeSliderWeight: RangeSlider
     private lateinit var buttonCalculate: Button
 
+    companion object{
+        const val IMC_KEY = "IMC_RESULT"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
-        //Declaramos el splash screen
+        //Splash screen declaration
         val splashScreen = installSplashScreen()
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Inicializamos el splash screen
+        //Splash screen initializing
         splashScreen.setKeepOnScreenCondition { false }
 
-        //Llamamos las funciones necesarias
+        //Calling needed functions
         initComponents()
         initListeners()
     }
 
-    //Inicializamos los componentes
+    //Components initializing
     private fun initComponents() {
         showImcInfoDialog()
         buttonCalculate = findViewById(R.id.buttonCalculate)
     }
 
-    //Inicializamos los listeners
+    //Listeners initializing
     private fun initListeners() {
         //Botón calcular
         buttonCalculate.setOnClickListener {
@@ -42,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    //Mostrar alerta de información acerca del IMC (váliido en adultos)
+    //Show alert about IMC info
     private fun showImcInfoDialog() {
         val alertDialog = AlertDialog.Builder(this)
 
@@ -56,4 +70,6 @@ class MainActivity : AppCompatActivity() {
                     "presente se limita a personas mayores de 20 años.")
         }.create().show()
     }
+
+
 }
