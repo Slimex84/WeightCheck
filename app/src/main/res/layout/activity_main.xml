@@ -120,7 +120,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="100 kg"
+                        android:text="40 kg"
                         android:textColor="@color/white"
                         android:textSize="38sp"
                         android:textStyle="bold" />
@@ -130,8 +130,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:stepSize="1"
-                        android:valueFrom="100"
-                        android:valueTo="220"
+                        android:valueFrom="40"
+                        android:valueTo="230"
                         app:labelBehavior="gone" />
 
                 </LinearLayout>

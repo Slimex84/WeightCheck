@@ -1,6 +1,7 @@
 package com.example.weightcheck
 
 import android.content.Intent
+import android.icu.text.DecimalFormat
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -39,17 +40,36 @@ class MainActivity : AppCompatActivity() {
         //Calling needed functions
         initComponents()
         initListeners()
+        //initUI()
     }
 
     //Components initializing
     private fun initComponents() {
         showImcInfoDialog()
+        textViewHeight = findViewById(R.id.textViewHeight)
+        rangeSliderHeight = findViewById(R.id.rangeSliderHeight)
+        textViewWeight = findViewById(R.id.textViewWeight)
+        rangeSliderWeight = findViewById(R.id.rangeSliderWeight)
         buttonCalculate = findViewById(R.id.buttonCalculate)
     }
 
     //Listeners initializing
     private fun initListeners() {
-        //Botón calcular
+        //Slider init
+        //Slider height
+        rangeSliderHeight.addOnChangeListener { _, value, _ ->
+            val decimalFormat = DecimalFormat("#.##")
+            currentHeight = decimalFormat.format(value).toInt()
+            textViewHeight.text = "$currentHeight cm"
+        }
+        //Slider weight
+        rangeSliderWeight.addOnChangeListener { _, value, _ ->
+            val decimalFormat = DecimalFormat("#.##")
+            currentWeight = decimalFormat.format(value).toInt()
+            textViewWeight.text = "$currentWeight kg"
+        }
+
+        //Calculate button
         buttonCalculate.setOnClickListener {
             val intent = Intent(this, ResultActivity::class.java)
             startActivity(intent)
@@ -70,6 +90,4 @@ class MainActivity : AppCompatActivity() {
                     "presente se limita a personas mayores de 20 años.")
         }.create().show()
     }
-
-
 }
