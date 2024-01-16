@@ -13,7 +13,7 @@
         android:theme="@style/Theme.WeightCheck"
         tools:targetApi="31">
         <activity
-            android:name=".activity_result"
+            android:name=".ResultActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
     private fun initListeners() {
         //Botón calcular
         buttonCalculate.setOnClickListener {
-            val intent = Intent(this, activity_result::class.java)
+            val intent = Intent(this, ResultActivity::class.java)
             startActivity(intent)
         }
     }
