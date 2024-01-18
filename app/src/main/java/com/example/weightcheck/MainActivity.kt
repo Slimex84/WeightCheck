@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var rangeSliderWeight: RangeSlider
     private lateinit var buttonCalculate: Button
 
-    companion object{
+    companion object {
         const val IMC_KEY = "IMC_RESULT"
     }
 
@@ -41,6 +41,23 @@ class MainActivity : AppCompatActivity() {
         initComponents()
         initListeners()
         //initUI()
+    }
+
+    //Show alert about IMC info
+    private fun showImcInfoDialog() {
+        val alertDialog = AlertDialog.Builder(this)
+
+        alertDialog.apply {
+            setIcon(R.drawable.bell)
+            setTitle("AVISO!")
+            setMessage(
+                "El IMC no es un cálculo 100% preciso, ya que no diagnostica la " +
+                        "grasa corporal ni la salud de un individuo. El IMC es una fórmula que relaciona " +
+                        "el peso y la altura de una persona, y se utiliza para clasificar el estado " +
+                        "nutricional según la Organización Mundial de la Salud. Además, el cálculo aquí " +
+                        "presente se limita a personas mayores de 20 años."
+            )
+        }.create().show()
     }
 
     //Components initializing
@@ -71,23 +88,23 @@ class MainActivity : AppCompatActivity() {
 
         //Calculate button
         buttonCalculate.setOnClickListener {
-            val intent = Intent(this, ResultActivity::class.java)
-            startActivity(intent)
+            val result = calculateIMC()
+            navigateToResult(result)
         }
     }
 
-    //Show alert about IMC info
-    private fun showImcInfoDialog() {
-        val alertDialog = AlertDialog.Builder(this)
+    //Math operation to calculate IMC on adults
+    private fun calculateIMC(): Double {
+        //val decimalFormat = DecimalFormat("#.##")
+        return currentWeight / (currentHeight.toDouble() / 100 * currentHeight.toDouble() / 100)
+        //return decimalFormat.format(imc).toDouble()
+    }
 
-        alertDialog.apply {
-            setIcon(R.drawable.bell)
-            setTitle("AVISO!")
-            setMessage("El IMC no es un cálculo 100% preciso, ya que no diagnostica la " +
-                    "grasa corporal ni la salud de un individuo. El IMC es una fórmula que relaciona " +
-                    "el peso y la altura de una persona, y se utiliza para clasificar el estado " +
-                    "nutricional según la Organización Mundial de la Salud. Además, el cálculo aquí " +
-                    "presente se limita a personas mayores de 20 años.")
-        }.create().show()
+    //Function that shows the ResultActivity
+    private fun navigateToResult(result: Double) {
+        val intent = Intent(this, ResultActivity::class.java)
+        //Se le agrega el extra que es la variable result de tipo Double
+        intent.putExtra(IMC_KEY, result)
+        startActivity(intent)
     }
 }
