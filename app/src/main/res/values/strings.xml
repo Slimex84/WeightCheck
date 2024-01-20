@@ -4,4 +4,15 @@
     <string name="height">Estatura</string>
     <string name="weight">Peso</string>
     <string name="calcular">Calcular</string>
+    <string name="error">Error</string>
+    <string name="title_low_weight">Bajo peso</string>
+    <string name="description_low_weight">Estás por debajo de lo óptimo para tu peso y altura</string>
+    <string name="title_normal_weight">Peso normal</string>
+    <string name="description_normal_weight">Estás en lo óptimo para tu peso y altura</string>
+    <string name="title_high_weight">Sobre peso</string>
+    <string name="description_high_weight">Estás por encima de lo óptimo para tu peso y altura</string>
+    <string name="title_obesity">Obesidad</string>
+    <string name="description_obesity">Estás MUY por encima de lo óptimo para tu peso y altura</string>
+    <string name="recalcular">Recalcular</string>
+    <string name="result">Resultado\n</string>
 </resources>

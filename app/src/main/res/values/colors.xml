@@ -5,4 +5,8 @@
     <color name="main">#C7EFF7</color>
     <color name="secondary">#00496C</color>
     <color name="third">#246792</color>
+    <color name="low_weight">#FFEB3B</color>
+    <color name="normal_weight">#3DDC84</color>
+    <color name="high_weight">#FF9800</color>
+    <color name="obesity">#FF0000</color>
 </resources>
