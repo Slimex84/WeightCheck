@@ -3,8 +3,6 @@
 This app uses the IMC formula to calculate if your weight is in good condition.
 
 
-![Logo](https://raw.githubusercontent.com/Slimex84/WeightCheck/master/app/src/main/res/drawable/weight_checker_logo.JPG)
-
 
 ## Screenshots
 
