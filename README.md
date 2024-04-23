@@ -1,6 +1,8 @@
 # IMC WEIGHT CHECKER
 
-This app uses the IMC formula to calculate if your weight is in good condition.
+-> This easy-to-use app uses the IMC formula to calculate if your weight is in good condition.
+
+-> The app is developed completely on native Kotlin. 
 
 
 
