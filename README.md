@@ -10,4 +10,4 @@
 
 |   |   |
 |:--------------:|:---------------:|
-| ![App Screenshot](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=360,h=649,fit=crop,trim=0;2.0607142857142855;0;0/mk3DXyWBRZCxzX6B/01-AQEJj133OlFDLnge.png) | ![App Screenshot](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=360,h=649,fit=crop,trim=0;4.092526690391459;0;0/mk3DXyWBRZCxzX6B/02-YanBZb217bfK5EJP.png) |
+| ![App Screenshot](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=360,h=649,fit=crop,trim=0;6.182142857142857;0;0/mk3DXyWBRZCxzX6B/01_upscayl_3x_remacri-YanBZZvVlPh9VjnN.png) | ![App Screenshot](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=360,h=649,fit=crop,trim=0;4.092526690391459;0;0/mk3DXyWBRZCxzX6B/02-YanBZb217bfK5EJP.png) |
