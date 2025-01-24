@@ -11,6 +11,7 @@ BMI Weight Checker is a straightforward app that calculates a person's Body Mass
 
 
 -> Calculates BMI from height and weight inputs.
+
 -> Displays weight status (underweight, normal, overweight, etc.).
 
 
