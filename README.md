@@ -8,7 +8,7 @@ IMC Weight Checker is a straightforward app that calculates a person's Body Mass
 
 <li>Features:</li>
 
-> Calculates BMI from height and weight inputs.
+-> Calculates BMI from height and weight inputs.
 
 -> Displays weight status (underweight, normal, overweight, etc.).
 
