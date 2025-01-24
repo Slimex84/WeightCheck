@@ -1,10 +1,14 @@
 # BMI WEIGHT CHECKER
 
-*Description:
-
+<ul>
+<li>Description:</li>
+  
 
 BMI Weight Checker is a straightforward app that calculates a person's Body Mass Index (BMI) using the standard formula and provides feedback on their weight condition based on the results.
 
+
+<li>Magia</li>
+</ul>
 
 *Features:
 
