@@ -1,8 +1,22 @@
-# IMC WEIGHT CHECKER
+# BMI WEIGHT CHECKER
 
--> This easy-to-use app uses the IMC formula to calculate if your weight is in good condition.
+Description:
+BMI Weight Checker is a straightforward app that calculates a person's Body Mass Index (BMI) using the standard formula and provides feedback on their weight condition based on the results.
 
--> The app is developed completely on native Kotlin. 
+
+Features:
+-> Calculates BMI from height and weight inputs.
+-> Displays weight status (underweight, normal, overweight, etc.).
+-> Fully developed in Kotlin with an intuitive UI.
+
+
+Tech Stack:
+-> Native Kotlin for Android development.
+
+
+Usage:
+1. Input your height and weight into the app.
+2. Press "Calculate" to view your BMI and weight status.
 
 
 
