@@ -7,10 +7,7 @@
 BMI Weight Checker is a straightforward app that calculates a person's Body Mass Index (BMI) using the standard formula and provides feedback on their weight condition based on the results.
 
 
-<li>Magia</li>
-</ul>
-
-*Features:
+<li>Features:</li>
 
 
 -> Calculates BMI from height and weight inputs.
@@ -22,18 +19,18 @@ BMI Weight Checker is a straightforward app that calculates a person's Body Mass
 -> Fully developed in Kotlin with an intuitive UI.
 
 
-
-
-*Tech Stack:
-
+<li>Tech Stack:</li>
 
 -> Native Kotlin for Android development.
 
 
-*Usage:
+<li>Usage:</li>
+
 1. Input your height and weight into the app.
 2. Press "Calculate" to view your BMI and weight status.
 
+
+</ul>
 
 
 ## Screenshots
