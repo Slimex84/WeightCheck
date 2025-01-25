@@ -17,7 +17,16 @@ IMC Weight Checker is a straightforward app that calculates a person's Body Mass
 
 <li>Tech Stack:</li>
 
--> Native Kotlin for Android development.
+<div align="left">
+  <img src="https://cdn.simpleicons.org/android/3DDC84" height="40" alt="android logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="androidstudio logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="40" alt="kotlin logo"  />
+  <img width="12" />
+</div>
+
+###
 
 
 <li>Usage:</li>
