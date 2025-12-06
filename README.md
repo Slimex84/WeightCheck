@@ -42,4 +42,4 @@ IMC Weight Checker is a straightforward app that calculates a person's Body Mass
 
 |   |   |
 |:--------------:|:---------------:|
-| ![App Screenshot](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=360,h=649,fit=crop,trim=0;6.182142857142857;0;0/mk3DXyWBRZCxzX6B/01_upscayl_3x_remacri-YanBZZvVlPh9VjnN.png) | ![App Screenshot](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=360,h=649,fit=crop,trim=0;12.277580071174377;0;0/mk3DXyWBRZCxzX6B/02_upscayl_3x_remacri-mk3DxxpRMKczOxXV.png) |
+| ![App Screenshot](https://www.slimexdev.com/_next/image?url=%2Fimages%2Fimc1.png&w=1920&q=75) | ![App Screenshot](https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=360,h=649,fit=crop,trim=0;12.277580071174377;0;0/mk3DXyWBRZCxzX6B/02_upscayl_3x_remacri-mk3DxxpRMKczOxXV.png) |
